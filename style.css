@@ -1,0 +1,39 @@
+h1, .card-subtitle{
+    font-family: 'Plus Jakarta Sans', bold;
+    font-size: 18pt;
+    color: #000000;
+    height: 23px;
+    margin: 20px;
+}
+
+.card-img{
+    height: 485px;
+    width: 396px;
+}
+
+#card{
+    height: 600px;
+    width: 396px;
+    margin: 7px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+}
+
+.openButton{
+    position: fixed;
+    width: 40pt;
+    height: 40pt;
+    background-image: url('Arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 10pt 10pt;
+    background-position: center;
+    display: none;
+}
+
+.hover{
+    scale: 1.02;
+}
